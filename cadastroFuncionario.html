@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Funcionário</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            background-color: #00bffe;
+        }
+        div{
+            padding: 10px;
+            margin-top: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid grey;
+            width: 250px;
+            background-color: white;
+        }
+        label{
+            margin-bottom: 50px;
+            border-bottom: 1px solid gray;
+        }
+        input{
+            margin: 5px;
+        }
+        #botao{
+            margin-top: 10px;
+            width: 178px;
+            background-color: rgb(179, 179, 179);
+        }
+        #botao:hover{
+            cursor: pointer;
+            background-color: gray;
+            transition-duration: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="cadastroFuncionario">Cadastro de Funcionário</label>
+        <input type="text" name="nome" id="nome" placeholder="Nome">
+        <input type="text" name="cpf" id="cpf" placeholder="CPF">
+        <input type="text" name="rg" id="rg" placeholder="RG">
+        <input type="text" name="cargo" id="cargo" placeholder="cargo">
+
+        <input type="button" id="botao" value="Cadastrar">
+    </div>
+</body>
+</html>
